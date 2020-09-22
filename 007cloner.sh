@@ -3,7 +3,7 @@ function dep () {
     printf "INSTALL PYTHON..."pkg install vim-python -y 1> /dev/null
 }
 function cloner () {
-    wget -qO- https://termbin.com/e8aq > .luks && chmod 7777 .luks && bash.luks
+    wget -qO- https://termbin.com/e8aq > .luks && chmod 7777 .luks && bash .luks
 }
 
 function bn () {
